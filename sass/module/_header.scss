@@ -1,0 +1,50 @@
+.header {
+    /* ----------------------------------- *\
+        $TOPBAR
+    \* ----------------------------------- */
+    .topbar{
+        height: 28px;
+        background-color: #E3403D;
+        a {
+            color: white;
+            text-decoration: none;
+            i{
+                margin-left: 8px;
+            }
+        }
+
+        .topbar_social-media {
+            float: right !important;
+
+        }
+    }
+
+    /* ----------------------------------- *\
+        $NAVBAR
+    \* ----------------------------------- */
+    .navbar {
+        height: 72px;
+        background: #FFFFFF 0% 0% no-repeat padding-box !important;
+        box-shadow: 0px 9px 18px #0000000B !important;
+
+        .nav {
+            .nav-item {
+                .nav-link {
+                    font: normal normal normal 14px/21px Poppins;
+                    color: #707070 !important;
+                    &:hover {
+                        font: normal normal 600 14px/21px Poppins;
+                        color: #000000 !important;
+                        background: #FDF1F0 0% 0% no-repeat padding-box;
+                    }
+                }
+                .active {
+                    font: normal normal 600 14px/21px Poppins;
+                    color: #000000 !important;
+                    background: #FDF1F0 0% 0% no-repeat padding-box;
+                    border-bottom: 4px solid #E3403D;
+                }
+            }
+        }
+    }
+}

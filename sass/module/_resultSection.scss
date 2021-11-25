@@ -1,0 +1,24 @@
+.result-section {
+    width: 100%;
+    height: 351px;
+    background:url(../img/bgResult.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font: normal normal 600 59px/71px Poppins;
+        color: #FFFFFF;
+        text-transform: capitalize;
+    }
+
+    h4 {
+        text-align: center;
+        font: normal normal normal 26px/31px Poppins;
+        color: #FFFFFF;
+
+    }
+}

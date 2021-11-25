@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* Base */
+@import "base/base";
+
+/* Layout 
+@import "layout/grid";
+*/
+
+/* Modules */
+@import "module/header";
+@import "module/search";
+@import "module/destinations";
+@import "module/destinationCard";
+@import "module/offers";
+@import "module/offerCard";
+@import "module/footer";
+@import "module/resultSection";
+@import "module/resultsFilters";

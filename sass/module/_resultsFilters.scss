@@ -1,0 +1,60 @@
+.results-filters {
+    margin-top: 48px;
+    margin-bottom: 48px;
+
+    .searchFilters {
+        padding: 30px;
+        background-color: #F5F5F5;
+        margin-right: 15px !important;
+        .searchField {
+            background-color: white;
+            padding:15px;
+            margin-bottom: 20px;
+        }
+        .btn-custom {
+            height: auto;
+            margin-left: 0px;
+        }
+    }
+
+    .features {
+        margin-top: 15px;
+        padding: 30px;
+        background-color: #F5F5F5;
+        margin-right: 15px !important;
+        h1 {
+            font: normal normal 600 20px/40px Poppins;
+            letter-spacing: 0.4px;
+            color: #000000;
+            text-transform: uppercase;
+        }
+        .form-check {
+            margin-top: 10px;
+            label {
+                font: normal normal normal 16px/25px Poppins;
+                letter-spacing: 0.14px;
+                color: #000000;
+            }
+
+            .form-check-input[type=checkbox] {
+                width: 28px;
+                height: 28px;
+                margin-right: 5px;
+                border-radius: 0;
+            }
+
+            .form-check-input:checked {
+                background-color: #E3403D;
+                border-color: #E3403D;
+            }
+        }
+
+        
+    }
+
+    .sort {
+        background-color: #F5F5F5;
+        padding-top: 10px;
+        height: 49px;
+    }
+}

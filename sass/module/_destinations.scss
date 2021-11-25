@@ -1,0 +1,17 @@
+.destinations {
+    width: 100%;
+    padding-top: 48px;
+    .destinationsCards {
+        padding-top: 48px;
+    }
+
+    .all {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .btn-custom-outline {
+            width: 20%;
+            padding:20px;
+        }
+    }
+}

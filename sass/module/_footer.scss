@@ -1,0 +1,29 @@
+footer {
+    background: #ECECEC 0% 0% no-repeat padding-box;
+    padding: 39px 0 39px 0;
+    position: relative;
+    .footer_logo {
+        img {
+            margin-bottom: 15px;
+        }
+        a {
+            margin-right: 8px;
+            text-decoration: none;
+            i {
+                color: #E3403D;
+            }
+        }
+    }
+
+    .footer_cr {
+        position: relative;
+        p {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            text-align: right;
+            font: normal normal normal 14px/21px Poppins;
+            color: #707070;
+        }
+    }
+}

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- DEBUT Lien de style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FIN Lien de style CSS -->
+
+    <!-- DEBUT Lien de style Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- FIN Lien de style Bootstrap CSS -->
+
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>TAURI PROJECT</title>
+
+</head>
+<body>
+    <header class="header">
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="#" alt="contact@mail.com">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            contact@mail.com
+                        </a>
+                    </div>
+                    <div class="col-6 ">
+                        <div class="topbar_social-media">
+                            <a href ="#" alt="Facebook">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href ="#" alt="Twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href ="#" alt="Youtube">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                            </a>
+                            <a href ="#" alt="Instagram">
+                                <i class="fa fa-instagram" aria-hidden="true" ></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">À propos de nous</a>
+                    </li>
+                  </ul>
+            </div>
+        </nav>
+    </header>
+    <nav class="breadcrumb-custom">
+        <div class="container">
+            <a href="#" alt="">Accueil</a> / <label>Resultats de recherche</label>
+        </div>
+    </nav>
+
+    <section class="result-section">
+        <div class="container">
+            <h1>Resultats De Recherche</h1>
+            <h4>Découvrez toutes les destinations proposées par TAURI. <br> Le tout avec des dates de départ garanties !</h4>
+        </div>
+    </section>
+
+    <section class="results-filters">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+
+
+                    <div class="row searchFilters">
+                        <div class="col-12">
+                            <form action="">
+                                <div class="searchField">
+                                    <label for="" class="label"> Recherche </label>
+                                    <input type="text" class="input" id="recherche" placeholder="Ex: Hotel Regency" />
+                                </div>
+
+                                <div class="searchField">
+                                    <label for="" class="label"> Pays </label>
+                                    <select class="select">
+                                        <option selected>Séléctionner une pays</option>
+                                        <option value="1">Algérie</option>
+                                        <option value="2">Maroc</option>
+                                        <option value="3">Tunise</option>
+                                    </select>
+                                </div>
+
+                                <div class="searchField">
+                                <label for="" class="label"> Ville </label>
+                                <select class="select">
+                                    <option selected>Séléctionner une ville </option>
+                                    <option value="1">Ouhran</option>
+                                    <option value="2">Casablanca</option>
+                                    <option value="3">Rabat</option>
+                                    </select>
+                                </div>
+
+                                <div class="searchField">
+                                    <button  class="btn-custom">
+                                        RECHERCHE
+                                    </button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class="row features">
+                        <h1>FILTERER PAR :</h1>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Piscine
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  DWi-fi
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Wi-fi
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Parking
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Gymnase
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Spa
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Vue sur mer
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row tags">
+                        
+                    </div>
+                </div>
+
+                <div class="col-8">
+                    <div class="row sort">
+                        <div class="col-8"></div>
+                        <div class="col-4">
+                            <select class="select">
+                                <option selected>Trier par</option>
+                                <option value="1">Algérie</option>
+                                <option value="2">Maroc</option>
+                                <option value="3">Tunise</option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="off_card">
+                                <div class="off_img">
+                                    <img src="img/italy.jpeg" alt="">
+                                </div>
+                                <div class="off_content">
+                                    <div class="off_content-tarif">
+                                        <label>MEILLEUR TARIF DISPONIBLE</label>
+                                        <h3>€90.37</h3>
+                                    </div>
+                                    <div class="off_content-title">
+                                        <h2>Oasis Hotel</h2>
+                                    </div>
+                                    <div class="row off_content-reviewDate">
+                                        <div class="col-6 off_content-review">
+                                            <label>Évaluation 4.4 / 10</label>
+                                            <h3>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                            </h3>
+                                        </div>
+                                        <div class="col-6 off_content-nextDate">
+                                            <label>Prochaine journée disponible</label>
+                                            <h3>Nov 17</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row off_content-callToAction">
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline btn-details">
+                                                DÉTAILS
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline">
+                                                RÉSERVER 
+                                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="off_card">
+                                <div class="off_img">
+                                    <img src="img/germany.jpeg" alt="">
+                                </div>
+                                <div class="off_content">
+                                    <div class="off_content-tarif">
+                                        <label>MEILLEUR TARIF DISPONIBLE</label>
+                                        <h3>€90.37</h3>
+                                    </div>
+                                    <div class="off_content-title">
+                                        <h2>Oasis Hotel</h2>
+                                    </div>
+                                    <div class="row off_content-reviewDate">
+                                        <div class="col-6 off_content-review">
+                                            <label>Évaluation 4.4 / 10</label>
+                                            <h3>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                            </h3>
+                                        </div>
+                                        <div class="col-6 off_content-nextDate">
+                                            <label>Prochaine journée disponible</label>
+                                            <h3>Nov 17</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row off_content-callToAction">
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline btn-details">
+                                                DÉTAILS
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline">
+                                                RÉSERVER 
+                                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="off_card">
+                                <div class="off_img">
+                                    <img src="img/france.jpeg" alt="">
+                                </div>
+                                <div class="off_content">
+                                    <div class="off_content-tarif">
+                                        <label>MEILLEUR TARIF DISPONIBLE</label>
+                                        <h3>€90.37</h3>
+                                    </div>
+                                    <div class="off_content-title">
+                                        <h2>Oasis Hotel</h2>
+                                    </div>
+                                    <div class="row off_content-reviewDate">
+                                        <div class="col-6 off_content-review">
+                                            <label>Évaluation 4.4 / 10</label>
+                                            <h3>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                            </h3>
+                                        </div>
+                                        <div class="col-6 off_content-nextDate">
+                                            <label>Prochaine journée disponible</label>
+                                            <h3>Nov 17</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row off_content-callToAction">
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline btn-details">
+                                                DÉTAILS
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline">
+                                                RÉSERVER 
+                                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="off_card">
+                                <div class="off_img">
+                                    <img src="img/tunisie.jpeg" alt="">
+                                </div>
+                                <div class="off_content">
+                                    <div class="off_content-tarif">
+                                        <label>MEILLEUR TARIF DISPONIBLE</label>
+                                        <h3>€90.37</h3>
+                                    </div>
+                                    <div class="off_content-title">
+                                        <h2>Oasis Hotel</h2>
+                                    </div>
+                                    <div class="row off_content-reviewDate">
+                                        <div class="col-6 off_content-review">
+                                            <label>Évaluation 4.4 / 10</label>
+                                            <h3>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                            </h3>
+                                        </div>
+                                        <div class="col-6 off_content-nextDate">
+                                            <label>Prochaine journée disponible</label>
+                                            <h3>Nov 17</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row off_content-callToAction">
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline btn-details">
+                                                DÉTAILS
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline">
+                                                RÉSERVER 
+                                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="off_card">
+                                <div class="off_img">
+                                    <img src="img/algerie.jpeg" alt="">
+                                </div>
+                                <div class="off_content">
+                                    <div class="off_content-tarif">
+                                        <label>MEILLEUR TARIF DISPONIBLE</label>
+                                        <h3>€90.37</h3>
+                                    </div>
+                                    <div class="off_content-title">
+                                        <h2>Oasis Hotel</h2>
+                                    </div>
+                                    <div class="row off_content-reviewDate">
+                                        <div class="col-6 off_content-review">
+                                            <label>Évaluation 4.4 / 10</label>
+                                            <h3>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                            </h3>
+                                        </div>
+                                        <div class="col-6 off_content-nextDate">
+                                            <label>Prochaine journée disponible</label>
+                                            <h3>Nov 17</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row off_content-callToAction">
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline btn-details">
+                                                DÉTAILS
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline">
+                                                RÉSERVER 
+                                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 footer_logo">
+                    <img src="img/logo.png" alt="">
+                    <br>
+                    <a href ="#" alt="Facebook">
+                        <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a href ="#" alt="Twitter">
+                        <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a href ="#" alt="Youtube">
+                        <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a href ="#" alt="Instagram">
+                        <i class="fa fa-instagram fa-lg" aria-hidden="true" ></i>
+                    </a>
+    
+                </div>
+                <div class="col-6 footer_cr">
+                    <p>Copyright © 2021 powered by TAURI PORJECT, Inc. All rights reserved​</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- DEBUT Lien Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- FIN Lien Bootstrap JS -->
+</body>
+</html>
