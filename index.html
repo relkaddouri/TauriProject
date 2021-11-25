@@ -21,65 +21,565 @@
 </head>
 <body>
     <header class="header">
-            <div class="topbar">
-                <div class="l-container">
-                    <a href="" class="topbar-contact">contact@mail.com</a>
-                    <ul class="topbar-socialmedias">
-                        <li>
-                            <a href="">
-                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="#" alt="contact@mail.com">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            contact@mail.com
+                        </a>
+                    </div>
+                    <div class="col-6 ">
+                        <div class="topbar_social-media">
+                            <a href ="#" alt="Facebook">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
                             </a>
-                        </li>
-                        <li>
-                            <a href="">
+                            <a href ="#" alt="Twitter">
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                             </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            <a href ="#" alt="Youtube">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
                             </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <a href ="#" alt="Instagram">
+                                <i class="fa fa-instagram" aria-hidden="true" ></i>
                             </a>
-                        </li>
-                    </ul>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="navbar">
-                <div class="l-container">
-                    <a href="#" class="header-logo">
-                        <img src="img/logo.png" alt="TAURI PROJECT">
-                    </a>
-                    <nav class="menu">
-                        <ul>
-                            <li class="menu-item is-active">
-                                <a href=""></a>Accueil</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="">Blog</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="">A propos de nous</a>
-                            </li>
-                        </ul>
-                        
-                    </nav>
-                </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">À propos de nous</a>
+                    </li>
+                  </ul>
             </div>
+        </nav>
     </header>
+    
+    <section class="search">
+        <div class="container">
+            <h1 class="h1">Le luxe a petit prix</h1>
+            <h4 class="h4">Un espace de luxe que vous pouvez vous permettre où les rêves deviennent réalité</h4>
 
-    <div class="search">
-        <h1 class="h1">Le luxe a petit prix</h1>
-        <h4 class="h4">Un espace de luxe que vous pouvez vous permettre
-            où les rêves deviennent réalité</h4>
-    </div>
+            <div class="searchForm">
+                <form>
+                    <div class="row">
+                        <div class="col-9 searchFieldsContent">
+                            <div class="row">
+                                <div class="col-4 searchField">
+                                    <label for="" class="label"> Recherche </label>
+                                    <input type="text" class="input" id="recherche" placeholder="Ex: Hotel Regency" />
+                                </div>
+                                <div class="col-4 searchField">
+                                    <label for="" class="label"> Pays </label>
+                                    <select class="select">
+                                        <option selected>Séléctionner une pays</option>
+                                        <option value="1">Algérie</option>
+                                        <option value="2">Maroc</option>
+                                        <option value="3">Tunise</option>
+                                      </select>
+                                </div>
+                                <div class="col-4 searchField">
+                                    <label for="" class="label"> Ville </label>
+                                    <select class="select">
+                                        <option selected>Séléctionner une ville </option>
+                                        <option value="1">Ouhran</option>
+                                        <option value="2">Casablanca</option>
+                                        <option value="3">Rabat</option>
+                                      </select>
+                                </div>
+                                </div>
+                            </di>
+                        </div>
 
+                        <div class="col-3">
+                            <button  class="btn-custom">
+                                RECHERCHE
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="destinations">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="h5">OUR BEST <br> ______</h5>
+                    <h4 class="h3">Destinations populaires</h4>
+                </div>
+            </div>
+
+            <div class="row destinationsCards">
+                <div class="col-4">
+                    <div class="card_dest">
+                        <div class="bgImg">
+                            <img src="img/germany.jpeg" alt="" class="dest_img"/>
+                        </div>
+                        <div class="card_content">
+                            <h4>Germany</h4>
+                            <label>14 Hotels</label>
+                            <div class="link">
+                                <a href="#" class="btn-custom-icon">
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card_dest">
+                        <div class="bgImg">
+                            <img src="img/italy.jpeg" alt="" class="dest_img"/>
+                        </div>
+                        <div class="card_content">
+                            <h4>Italy</h4>
+                            <label>14 Hotels</label>
+                            <div class="link">
+                                <a href="#" class="btn-custom-icon">
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card_dest">
+                        <div class="bgImg">
+                            <img src="img/france.jpeg" alt="" class="dest_img"/>
+                        </div>
+                        <div class="card_content">
+                            <h4>France</h4>
+                            <label>14 Hotels</label>
+                            <div class="link">
+                                <a href="#" class="btn-custom-icon">
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="card_dest">
+                        <div class="bgImg">
+                            <img src="img/maroc.jpeg" alt="" class="dest_img"/>
+                        </div>
+                        <div class="card_content">
+                            <h4>Maroc</h4>
+                            <label>14 Hotels</label>
+                            <div class="link">
+                                <a href="#" class="btn-custom-icon">
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="card_dest">
+                        <div class="bgImg">
+                            <img src="img/tunisie.jpeg" alt="" class="dest_img"/>
+                        </div>
+                        <div class="card_content">
+                            <h4>Tunise</h4>
+                            <label>14 Hotels</label>
+                            <div class="link">
+                                <a href="#" class="btn-custom-icon">
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="card_dest">
+                        <div class="bgImg">
+                            <img src="img/algerie.jpeg" alt="" class="dest_img"/>
+                        </div>
+                        <div class="card_content">
+                            <h4>Algerie</h4>
+                            <label>14 Hotels</label>
+                            <div class="link">
+                                <a href="#" class="btn-custom-icon">
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-12 all">
+                    <a href="#"  class="btn-custom-outline">
+                        Voir tous 
+                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="offers">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="h5">
+                        NOS OFFRES <br> ______
+                    </h5>
+                    <h4 class="h3">OFFRES POPULAIRES</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="off_card">
+                        <div class="off_img">
+                            <img src="img/italy.jpeg" alt="">
+                        </div>
+                        <div class="off_content">
+                            <div class="off_content-tarif">
+                                <label>MEILLEUR TARIF DISPONIBLE</label>
+                                <h3>€90.37</h3>
+                            </div>
+                            <div class="off_content-title">
+                                <h2>Oasis Hotel</h2>
+                            </div>
+                            <div class="row off_content-reviewDate">
+                                <div class="col-6 off_content-review">
+                                    <label>Évaluation 4.4 / 10</label>
+                                    <h3>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                    </h3>
+                                </div>
+                                <div class="col-6 off_content-nextDate">
+                                    <label>Prochaine journée disponible</label>
+                                    <h3>Nov 17</h3>
+                                </div>
+                            </div>
+                            <div class="row off_content-callToAction">
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline btn-details">
+                                        DÉTAILS
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline">
+                                        RÉSERVER 
+                                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="off_card">
+                        <div class="off_img">
+                            <img src="img/germany.jpeg" alt="">
+                        </div>
+                        <div class="off_content">
+                            <div class="off_content-tarif">
+                                <label>MEILLEUR TARIF DISPONIBLE</label>
+                                <h3>€90.37</h3>
+                            </div>
+                            <div class="off_content-title">
+                                <h2>Appartement Djenane El Malik Hydra</h2>
+                            </div>
+                            <div class="row off_content-reviewDate">
+                                <div class="col-6 off_content-review">
+                                    <label>Évaluation 4.4 / 10</label>
+                                    <h3>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                    </h3>
+                                </div>
+                                <div class="col-6 off_content-nextDate">
+                                    <label>Prochaine journée disponible</label>
+                                    <h3>Today</h3>
+                                </div>
+                            </div>
+                            <div class="row off_content-callToAction">
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline btn-details">
+                                        DÉTAILS
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline">
+                                        RÉSERVER 
+                                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-4">
+                    <div class="off_card">
+                        <div class="off_img">
+                            <img src="img/france.jpeg" alt="">
+                        </div>
+                        <div class="off_content">
+                            <div class="off_content-tarif">
+                                <label>MEILLEUR TARIF DISPONIBLE</label>
+                                <h3>€90.37</h3>
+                            </div>
+                            <div class="off_content-title">
+                                <h2>VIP Respectious Family Rooms el biar</h2>
+                            </div>
+                            <div class="row off_content-reviewDate">
+                                <div class="col-6 off_content-review">
+                                    <label>Évaluation 4.4 / 10</label>
+                                    <h3>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                    </h3>
+                                </div>
+                                <div class="col-6 off_content-nextDate">
+                                    <label>Prochaine journée disponible</label>
+                                    <h3>Nov 17</h3>
+                                </div>
+                            </div>
+                            <div class="row off_content-callToAction">
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline btn-details">
+                                        DÉTAILS
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline">
+                                        RÉSERVER 
+                                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="off_card">
+                        <div class="off_img">
+                            <img src="img/algerie.jpeg" alt="">
+                        </div>
+                        <div class="off_content">
+                            <div class="off_content-tarif">
+                                <label>MEILLEUR TARIF DISPONIBLE</label>
+                                <h3>€90.37</h3>
+                            </div>
+                            <div class="off_content-title">
+                                <h2>Hotel Dar El Ikram</h2>
+                            </div>
+                            <div class="row off_content-reviewDate">
+                                <div class="col-6 off_content-review">
+                                    <label>Évaluation 8.4 / 10</label>
+                                    <h3>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                    </h3>
+                                </div>
+                                <div class="col-6 off_content-nextDate">
+                                    <label>Prochaine journée disponible</label>
+                                    <h3>Nov 17</h3>
+                                </div>
+                            </div>
+                            <div class="row off_content-callToAction">
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline btn-details">
+                                        DÉTAILS
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline">
+                                        RÉSERVER 
+                                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="off_card">
+                        <div class="off_img">
+                            <img src="img/tunisie.jpeg" alt="">
+                        </div>
+                        <div class="off_content">
+                            <div class="off_content-tarif">
+                                <label>MEILLEUR TARIF DISPONIBLE</label>
+                                <h3>€90.37</h3>
+                            </div>
+                            <div class="off_content-title">
+                                <h2>Hotel Samir</h2>
+                            </div>
+                            <div class="row off_content-reviewDate">
+                                <div class="col-6 off_content-review">
+                                    <label>Évaluation 5.1 / 10</label>
+                                    <h3>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                    </h3>
+                                </div>
+                                <div class="col-6 off_content-nextDate">
+                                    <label>Prochaine journée disponible</label>
+                                    <h3>Complet pour 20 jours</h3>
+                                </div>
+                            </div>
+                            <div class="row off_content-callToAction">
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline btn-details">
+                                        DÉTAILS
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline">
+                                        RÉSERVER 
+                                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="off_card">
+                        <div class="off_img">
+                            <img src="img/maroc.jpeg" alt="">
+                        </div>
+                        <div class="off_content">
+                            <div class="off_content-tarif">
+                                <label>MEILLEUR TARIF DISPONIBLE</label>
+                                <h3>€90.37</h3>
+                            </div>
+                            <div class="off_content-title">
+                                <h2 data-bs-toggle="tooltip" data-bs-placement="top" title="Le Palais Familial un tres text longue ici, c'est un test pour eviter ce type de problem.">Le Palais Familial un tres text longue ici, c'es...</h2>
+                            </div>
+                            <div class="row off_content-reviewDate">
+                                <div class="col-6 off_content-review">
+                                    <label>Évaluation 4.4 / 10</label>
+                                    <h3>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                    </h3>
+                                </div>
+                                <div class="col-6 off_content-nextDate">
+                                    <label>Prochaine journée disponible</label>
+                                    <h3>Tomorrow</h3>
+                                </div>
+                            </div>
+                            <div class="row off_content-callToAction">
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline btn-details">
+                                        DÉTAILS
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#"  class="btn-custom-outline">
+                                        RÉSERVER 
+                                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 footer_logo">
+                    <img src="img/logo.png" alt="">
+                    <br>
+                    <a href ="#" alt="Facebook">
+                        <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a href ="#" alt="Twitter">
+                        <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a href ="#" alt="Youtube">
+                        <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a href ="#" alt="Instagram">
+                        <i class="fa fa-instagram fa-lg" aria-hidden="true" ></i>
+                    </a>
+    
+                </div>
+                <div class="col-6 footer_cr">
+                    <p>Copyright © 2021 powered by TAURI PORJECT, Inc. All rights reserved​</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- DEBUT Lien Bootstrap JS -->
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- FIN Lien Bootstrap JS -->
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
 </body>
 </html>
