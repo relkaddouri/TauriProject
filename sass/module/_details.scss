@@ -3,6 +3,7 @@
     .carousel-inner {
         img {
             object-fit: cover;
+            height: 500px;
         }
     }
     .carousel-control-prev-icon {
@@ -113,6 +114,13 @@
 \* ----------------------------------- */
 
 @media screen and (max-width: 600px) {
+
+    .carousel-inner {
+        img {
+            height: auto !important;
+        }
+    }
+    
     .details-hotel-container {
         display: flex !important;
         .details-hotel_description{
