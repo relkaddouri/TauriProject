@@ -24,3 +24,34 @@
         }
     }
 }
+
+
+/* ----------------------------------- *\
+    MOBILE
+\* ----------------------------------- */
+
+@media screen and (max-width: 600px) {
+    .search{
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        padding: 40px;;
+
+        h1 {
+            font: normal normal 600 38px/45px Poppins !important;
+            letter-spacing: -0.3px !important;
+        }
+
+        h4 {
+            font: normal normal normal 15px/23px Poppins !important;
+        }
+
+        .searchForm {
+            margin-top: 0;
+
+            .btn-custom {
+                margin-left: 0;
+            }
+        }
+    }
+}

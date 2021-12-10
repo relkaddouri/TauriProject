@@ -180,7 +180,97 @@ body {
   background: #FDF1F0 0% 0% no-repeat padding-box;
   border-bottom: 4px solid #E3403D;
 }
+.header .nav-mobile {
+  display: none;
+}
+.header .menu-mobile {
+  display: none;
+}
 
+/* ----------------------------------- *\
+    MOBILE
+\* ----------------------------------- */
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .header .topbar {
+    display: none;
+  }
+  .header .nav-web {
+    display: none;
+  }
+  .header .nav-mobile {
+    display: block;
+    float: right;
+    position: absolute;
+    right: 17px;
+    top: 24px;
+  }
+  .header .nav-mobile button {
+    width: 44px;
+    height: 44px;
+    border: none;
+    background: transparent;
+    color: #000000;
+    font-size: 25px;
+  }
+  .header .menu-mobile {
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    padding-top: 20px;
+  }
+  .header .menu-mobile .menu-title {
+    text-align: center;
+    font: normal normal bold 21px/31px Poppins;
+    color: #000000;
+  }
+  .header .menu-mobile .close-btn {
+    position: absolute;
+    bottom: 30px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .header .menu-mobile .close-btn button {
+    width: 44px;
+    height: 44px;
+    background: white;
+    font: normal normal 600 19px/13px Poppins;
+    letter-spacing: 0.32px;
+    color: #E3403D;
+    border: 1px solid #E3403D;
+  }
+  .header .menu-mobile .close-btn button:hover {
+    background: #E3403D 0% 0% no-repeat padding-box;
+    color: white;
+  }
+  .header .menu-mobile ul {
+    display: block;
+    text-align: center;
+  }
+  .header .menu-mobile ul .nav-link {
+    font: normal normal normal 14px/21px Poppins;
+    color: #707070 !important;
+  }
+  .header .menu-mobile ul .nav-link:hover {
+    font: normal normal 600 14px/21px Poppins;
+    color: #000000 !important;
+    background: #FDF1F0 0% 0% no-repeat padding-box;
+  }
+  .header .menu-mobile ul .active {
+    font: normal normal 600 14px/21px Poppins;
+    color: #000000 !important;
+    background: #FDF1F0 0% 0% no-repeat padding-box;
+    border-bottom: 4px solid #E3403D;
+  }
+}
 .search {
   width: 100%;
   height: 555px;
@@ -206,6 +296,30 @@ body {
   border-right: none;
 }
 
+/* ----------------------------------- *\
+    MOBILE
+\* ----------------------------------- */
+@media screen and (max-width: 600px) {
+  .search {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 40px;
+  }
+  .search h1 {
+    font: normal normal 600 38px/45px Poppins !important;
+    letter-spacing: -0.3px !important;
+  }
+  .search h4 {
+    font: normal normal normal 15px/23px Poppins !important;
+  }
+  .search .searchForm {
+    margin-top: 0;
+  }
+  .search .searchForm .btn-custom {
+    margin-left: 0;
+  }
+}
 .destinations {
   width: 100%;
   padding-top: 48px;
@@ -232,6 +346,7 @@ body {
   position: relative;
   width: 100%;
   height: 309px;
+  object-fit: cover;
 }
 .card_dest .card_content {
   position: absolute;
@@ -270,6 +385,7 @@ body {
 .off_card .off_img img {
   width: 100%;
   height: 181px;
+  object-fit: cover;
 }
 .off_card .off_content .off_content-tarif {
   width: 168px;
@@ -428,10 +544,145 @@ footer .footer_cr p {
   background-color: #E3403D;
   border-color: #E3403D;
 }
+.results-filters .tags {
+  margin-top: 15px;
+}
+.results-filters .tags .tag {
+  padding: 20px;
+  background: #F9F9F9 0% 0% no-repeat padding-box;
+  display: inline-block;
+  margin-top: 10px;
+}
+.results-filters .tags .tag span {
+  text-align: left;
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0.14px;
+  color: #000000;
+}
+.results-filters .tags .tag i {
+  color: #E3403D;
+}
+.results-filters .tags .btn-custom-outline {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  margin-left: 0;
+  margin-top: 15px;
+}
+.results-filters .tags .btn-custom-outline i {
+  margin-right: 5px;
+}
 .results-filters .sort {
   background-color: #F5F5F5;
   padding-top: 10px;
   height: 49px;
+}
+.results-filters .pages {
+  margin-top: 48px;
+  text-align: right;
+}
+.results-filters .pages ul li {
+  display: inline-block;
+}
+.results-filters .pages ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font: normal normal 600 19px/13px Poppins;
+  letter-spacing: 0.32px;
+  color: #E3403D;
+}
+.results-filters .pages ul li a:hover {
+  background: #E3403D 0% 0% no-repeat padding-box;
+  color: white;
+}
+.results-filters .pages ul li a:last-child {
+  border: 1px solid #E3403D;
+}
+.results-filters .pages ul .active {
+  background: #E3403D 0% 0% no-repeat padding-box;
+  color: white !important;
+}
+
+.hotel-imgs .carousel-inner img {
+  object-fit: cover;
+}
+.hotel-imgs .carousel-control-prev-icon {
+  background-image: url(../img/prev-icon.svg) !important;
+  position: absolute;
+  left: 0px;
+  z-index: 5;
+}
+.hotel-imgs .carousel-control-next-icon {
+  background-image: url(../img/next-icon.svg) !important;
+  position: absolute;
+  right: 0px;
+  z-index: 5;
+}
+.hotel-imgs .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  opacity: 1;
+}
+.hotel-imgs .carousel-indicators .active {
+  opacity: 1;
+  background-color: #E3403D;
+}
+
+.details-hotel {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.details-hotel h1 {
+  text-align: left;
+  font: normal normal 600 24px/30px Poppins;
+  letter-spacing: 0.48px;
+  color: #000000;
+}
+.details-hotel h4 {
+  text-align: left;
+  font: normal normal 600 18px/40px Poppins;
+  color: #000000;
+  text-transform: uppercase;
+}
+.details-hotel p {
+  text-align: left;
+  font: normal normal normal 16px/21px Poppins;
+  color: #707070;
+  line-height: 30px;
+}
+.details-hotel .details-hotel_infos {
+  position: relative;
+  top: -106px;
+  width: 352px;
+  padding: 20px;
+  margin: 0 auto;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #00000012;
+}
+.details-hotel .details-hotel_infos .details-hotel_infos-item {
+  margin-top: 20px;
+}
+.details-hotel .details-hotel_infos .details-hotel_infos-item .btn-custom {
+  margin-left: 0;
+}
+.details-hotel .details-hotel_infos .details-hotel_infos-item label {
+  text-align: left;
+  font: normal normal normal 16px/19px Lato;
+  letter-spacing: 0.14px;
+  color: #707070;
+}
+.details-hotel .details-hotel_infos .details-hotel_infos-item .price h3 {
+  text-align: left;
+  font: normal normal 600 35px/27px Poppins;
+  letter-spacing: 0.7px;
+  color: #E3403D;
+}
+.details-hotel .details-hotel_infos .details-hotel_infos-item .date h3 {
+  text-align: left;
+  font: normal normal 600 16px/16px Poppins;
+  letter-spacing: 0.32px;
+  color: #005F00;
 }
 
 /*# sourceMappingURL=style.css.map */

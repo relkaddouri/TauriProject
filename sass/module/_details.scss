@@ -1,0 +1,103 @@
+.hotel-imgs {
+
+    .carousel-inner {
+        img {
+            object-fit: cover;
+        }
+    }
+    .carousel-control-prev-icon {
+        background-image: url(../img/prev-icon.svg) !important;
+        position: absolute;
+        left: 0px;
+        z-index: 5;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url(../img/next-icon.svg) !important;
+        position: absolute;
+        right: 0px;
+        z-index: 5;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        opacity: 1;
+    }
+
+    .carousel-indicators .active {
+        opacity: 1;
+        background-color: #E3403D;
+    }
+    
+
+        
+}
+
+.details-hotel {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    h1 {
+        text-align: left;
+        font: normal normal 600 24px/30px Poppins;
+        letter-spacing: 0.48px;
+        color: #000000;
+    }
+    h4 {
+        text-align: left;
+        font: normal normal 600 18px/40px Poppins;
+        color: #000000;
+        text-transform: uppercase;
+    }
+    p {
+        text-align: left;
+        font: normal normal normal 16px/21px Poppins;
+        color: #707070;
+        line-height: 30px;
+    }
+
+    .details-hotel_infos {
+        position: relative;
+        top: -106px;
+        width: 352px;
+        padding: 20px;
+        margin: 0 auto;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 10px 20px #00000012;
+
+        .details-hotel_infos-item {
+            margin-top: 20px;
+
+            .btn-custom {
+                margin-left: 0;
+            }
+            label {
+                text-align: left;
+                font: normal normal normal 16px/19px Lato;
+                letter-spacing: 0.14px;
+                color: #707070;
+            }
+
+            .price {
+                h3 {
+                    text-align: left;
+                    font: normal normal 600 35px/27px Poppins;
+                    letter-spacing: 0.7px;
+                    color: #E3403D;
+                }
+            }
+
+            .date {
+                h3 {
+                    text-align: left;
+                    font: normal normal 600 16px/16px Poppins;
+                    letter-spacing: 0.32px;
+                    color: #005F00;
+                }
+            }
+        }
+
+
+    }
+}

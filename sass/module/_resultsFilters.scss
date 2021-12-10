@@ -45,16 +45,76 @@
 
             .form-check-input:checked {
                 background-color: #E3403D;
-                border-color: #E3403D;
+                border-color: #E3403D; 
             }
         }
 
         
     }
 
+    .tags {
+        margin-top: 15px;
+        .tag {
+            padding: 20px;
+            background: #F9F9F9 0% 0% no-repeat padding-box;
+            display: inline-block;
+            margin-top: 10px;
+            span {
+                text-align: left;
+                font: normal normal normal 16px/25px Poppins;
+                letter-spacing: 0.14px;
+                color: #000000;
+            }
+            i {
+                color: #E3403D;
+            }
+        }
+
+        .btn-custom-outline {
+            height: auto;
+            width: 100%;
+            padding: 20px;
+            margin-left: 0;
+            margin-top: 15px;
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+
     .sort {
         background-color: #F5F5F5;
         padding-top: 10px;
         height: 49px;
+    }
+
+    .pages {
+        margin-top: 48px;
+        text-align: right;
+        ul {
+            li{
+                display: inline-block;
+                a {
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    font: normal normal 600 19px/13px Poppins;
+                    letter-spacing: 0.32px;
+                    color:#E3403D ;
+                    &:hover {
+                        background: #E3403D 0% 0% no-repeat padding-box;
+                        color: white;
+                    }
+                    &:last-child {
+                        border: 1px solid #E3403D;
+                    }
+                }
+            }
+
+            .active {
+                background: #E3403D 0% 0% no-repeat padding-box;
+                color: white !important;
+                
+            }
+        }
     }
 }

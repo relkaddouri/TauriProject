@@ -55,7 +55,7 @@
                 <a class="navbar-brand" href="#">
                     <img src="img/logo.png" alt="">
                 </a>
-                <ul class="nav justify-content-end">
+                <ul class="nav justify-content-end nav-web">
                     <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                     </li>
@@ -65,10 +65,39 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#">À propos de nous</a>
                     </li>
-                  </ul>
+                </ul>
             </div>
         </nav>
+        <div class="nav-mobile">
+            <button id="open-btn">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="menu-mobile" id="menu-mobile">
+            <ul class="nav justify-content-end">
+                <li class="menu-title">
+                    <h1>MENU</h1>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">À propos de nous</a>
+                </li>
+            </ul>
+
+            <div class="close-btn" id="close-btn">
+                <button>
+                    <i class="fa fa-close" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
     </header>
+
+    
     <nav class="breadcrumb-custom">
         <div class="container">
             <a href="#" alt="">Accueil</a> / <label>Resultats de recherche</label>
@@ -85,7 +114,7 @@
     <section class="results-filters">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12">
 
 
                     <div class="row searchFilters">
@@ -175,11 +204,33 @@
                     </div>
 
                     <div class="row tags">
-                        
+                        <div class="col-12">
+                            <span class="tag">
+                                Navette vers l’aéroport
+                                <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+                            </span>
+                            <span class="tag">
+                                Gymnase
+                                <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+                            </span>
+                            <span class="tag">
+                                Algérie
+                                <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+                            </span>
+                            <span class="tag">
+                                Ouhran
+                                <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+                            </span>
+
+                            <button  class="btn-custom-outline">
+                                <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+                                EFFACER LES FILTRES
+                            </button>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-8">
+                <div class="col-lg-8 col-sm-12">
                     <div class="row sort">
                         <div class="col-8"></div>
                         <div class="col-4">
@@ -192,7 +243,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-12">
                             <div class="off_card">
                                 <div class="off_img">
                                     <img src="img/italy.jpeg" alt="">
@@ -237,7 +288,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-12">
                             <div class="off_card">
                                 <div class="off_img">
                                     <img src="img/germany.jpeg" alt="">
@@ -282,7 +333,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-12">
                             <div class="off_card">
                                 <div class="off_img">
                                     <img src="img/france.jpeg" alt="">
@@ -328,7 +379,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-12">
                             <div class="off_card">
                                 <div class="off_img">
                                     <img src="img/tunisie.jpeg" alt="">
@@ -374,7 +425,54 @@
                             </div>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="off_card">
+                                <div class="off_img">
+                                    <img src="img/algerie.jpeg" alt="">
+                                </div>
+                                <div class="off_content">
+                                    <div class="off_content-tarif">
+                                        <label>MEILLEUR TARIF DISPONIBLE</label>
+                                        <h3>€90.37</h3>
+                                    </div>
+                                    <div class="off_content-title">
+                                        <h2>Oasis Hotel</h2>
+                                    </div>
+                                    <div class="row off_content-reviewDate">
+                                        <div class="col-6 off_content-review">
+                                            <label>Évaluation 4.4 / 10</label>
+                                            <h3>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star" aria-hidden="true" style="color: #FD9E14;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true" style="color: #838383;font-size: 20px;"></i>
+                                            </h3>
+                                        </div>
+                                        <div class="col-6 off_content-nextDate">
+                                            <label>Prochaine journée disponible</label>
+                                            <h3>Nov 17</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row off_content-callToAction">
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline btn-details">
+                                                DÉTAILS
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#"  class="btn-custom-outline">
+                                                RÉSERVER 
+                                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-6 col-sm-12">
                             <div class="off_card">
                                 <div class="off_img">
                                     <img src="img/algerie.jpeg" alt="">
@@ -422,6 +520,22 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-8 col-sm-12"></div>
+                <div class="col-lg-4 col-sm-12 pages">
+                    <ul>
+                        <li class="page-item">
+                            <a href="#" class="active" alt="1"> 1 </a>
+                        </li>
+                        <li class="page-item"> 
+                            <a href="#" alt="2"> 2 </a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" alt="3"> > </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -457,5 +571,8 @@
     <!-- DEBUT Lien Bootstrap JS -->
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- FIN Lien Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
