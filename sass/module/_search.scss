@@ -53,5 +53,18 @@
                 margin-left: 0;
             }
         }
+
+        .searchForm-mobile {
+            background: white;
+            padding: 10px;
+            .searchFieldsContent {
+                .searchField {
+                    border-right: 0;
+                    border-bottom: 1px solid #CBCBCB;
+                    padding-bottom: 10px;
+                }
+            }
+        }
     }
+
 }

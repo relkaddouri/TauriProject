@@ -27,3 +27,23 @@ footer {
         }
     }
 }
+
+/* ----------------------------------- *\
+    MOBILE
+\* ----------------------------------- */
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    footer .footer_cr {
+        margin-top: 15px;
+        position: static !important;
+        p {
+            text-align: center;
+        }
+    }
+
+    footer .footer_logo {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+}
