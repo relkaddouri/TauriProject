@@ -134,6 +134,14 @@ body {
   margin-left: 5px;
 }
 
+/* ----------------------------------- *\
+    MOBILE
+\* ----------------------------------- */
+@media screen and (max-width: 600px) {
+  .breadcrumb-custom {
+    display: none;
+  }
+}
 /* Layout 
 @import "layout/grid";
 */
@@ -819,6 +827,18 @@ footer .footer_cr p {
   font: normal normal 600 16px/16px Poppins;
   letter-spacing: 0.32px;
   color: #005F00;
+}
+
+/* ----------------------------------- *\
+    MOBILE
+\* ----------------------------------- */
+@media screen and (max-width: 600px) {
+  .details-hotel-container {
+    display: flex !important;
+  }
+  .details-hotel-container .details-hotel_description {
+    order: 1 !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

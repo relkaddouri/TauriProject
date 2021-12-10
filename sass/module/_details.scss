@@ -101,3 +101,19 @@
 
     }
 }
+
+
+
+/* ----------------------------------- *\
+    MOBILE
+\* ----------------------------------- */
+
+@media screen and (max-width: 600px) {
+    .details-hotel-container {
+        display: flex !important;
+        .details-hotel_description{
+            order: 1 !important;
+        }
+    
+    }
+}
