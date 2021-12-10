@@ -102,6 +102,10 @@
     }
 }
 
+.details-hotel_infos-mobile {
+    display: none;
+}
+
 
 
 /* ----------------------------------- *\
@@ -114,6 +118,50 @@
         .details-hotel_description{
             order: 1 !important;
         }
+
+        .details-hotel_infos-web {
+            display: none !important;
+        }
+
+        .details-hotel_infos-mobile {
+            display: block;
+            width: 100% !important;
+            margin-top: 70px !important;
+
+            .details-hotel_infos-item {
+                label {
+                    font: normal normal normal 12px/15px Lato;
+                    letter-spacing: 0.11px;
+                    color: #707070;
+                }
+
+                .date, .cta {
+                    margin-top: 10px;
+                }
+
+                .price {
+                    background: #FFFFFF 0% 0% no-repeat padding-box;
+                    box-shadow: 0px 5px 10px #0000001C;
+                    opacity: 1;
+                    label {
+                        text-align: left;
+                        font: normal normal normal 9px/11px Lato;
+                        letter-spacing: 0.08px;
+                        color: #E3403D;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .btn-custom {
+                    width: 100% !important;
+                }
+            }
+        }
+        
+        .details-hotel_description {
+            margin-top: -61px;
+        }
     
     }
+
 }
